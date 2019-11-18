@@ -22,7 +22,7 @@ The IRC parsing is very basic and only works properyl with user messages - chann
 
 ## How to use it?
 
-1. Replace the irc.txt file with your IRC log (just messages copied fram an IRC chat).
+1. Replace the irc.txt file with your IRC log (just messages copied fram an IRC chat). I've attached my original IRC log file that I created this tool for. You can use it to test if it works and to customize your `chat.svg` template.
 
 2. Run the `irc2png.sh` script in the same directory.
 
@@ -32,4 +32,8 @@ The script will crete a `temp` folder and use the `chat.svg` template to render 
 
 **WARNING!**
 
-The script will immediately delete the `temp` folder upon running - if you don't want to loose previously rendered PNG files - copy them somewhere else or cahnge the name of teh `temp` directory before running the `irc2png.sh` script again!
+The script will immediately delete the `temp` folder upon running - if you don't want to loose previously rendered PNG files - copy them somewhere else or change the name of the `temp` directory before running the `irc2png.sh` script again!
+
+## Disclaimer
+
+I know this code is very ugly, but I needed to do one specific thing and I couldn't find a satisfying solution anywhere. Feel free to submit improvements, if you've made any.
