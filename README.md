@@ -10,7 +10,7 @@ I've made it, becasue I needed it, but maybe you'll fine it useful.
 
 It's very non-flexible.
 
-The current SVG template has 8 lines of chat, and the script is specifically made to work wiht that.
+The current SVG template has 8 lines of chat, and the script is specifically made to work with that.
 
 It replaces strings in the SVG file and renders it out using ImageMagick to a transparent PNG sequence.
 
@@ -22,13 +22,15 @@ The IRC parsing is very basic and only works properyl with user messages - chann
 
 ## How to use it?
 
-1. Replace the irc.txt file with your IRC log (just messages copied fram an IRC chat). I've attached my original IRC log file that I created this tool for. You can use it to test if it works and to customize your `chat.svg` template.
+1. Replace the irc.txt file with your IRC log (just messages copied fram an IRC chat).
 
 2. Run the `irc2png.sh` script in the same directory.
 
 3. Wait.
 
 The script will crete a `temp` folder and use the `chat.svg` template to render a reenactment of the IRC log into an animated PNG sequence.
+
+Ive attached my original IRC log file that I created this tool for. You can use it to test if it works and to customize your `chat.svg` template.
 
 **WARNING!**
 
