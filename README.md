@@ -6,9 +6,11 @@ https://youtu.be/T-ENFAmNoow
 
 ## What is this for?
 
-Generate a beautiful animated PNG sequence from an IRC log
+**Generate a beautiful animated PNG sequence from an IRC log.**
 
-This is a bash script that takes an IRC log from a txt file along wiht an SVG template, and produces a PNG sequence that you can then use to overlay the chat replay in a video.
+Imagine you have some messages copied from IRC, and you'd liek to present the min video form like they are appearing in real time. With this tool you can do that.
+
+This is a bash script that takes an IRC log from a txt file along with an SVG template, and produces a PNG sequence that you can then use to overlay the chat replay in a video.
 
 I've made it, becasue I needed it, but maybe you'll fine it useful.
 
@@ -23,7 +25,13 @@ The IRC parsing is very basic and only works properly with user messages - chann
 
 ## How to use it?
 
-Just run the script and read the built-in help. 
+Just run the script and read the built-in help.
+
+For a quick test, clone or download this repository to your disk, and run:
+
+    ./irc2png.sh irc.txt template.svg
+    
+It should create a `./irc2png` subdirectory filled with PNG frames.
 
 ## Cool features to brag about
 
@@ -36,3 +44,5 @@ This could probably be just as well be replaced with symbolic links to make it w
 ## Not so cool un-features I shamefully acknowledge
 
 I know this code is very ugly, but I needed to do one specific thing and I couldn't find a satisfying solution anywhere. Feel free to submit improvements, if you've made any.
+
+Enjoy!
