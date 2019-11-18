@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### irc2png - created by Tobiasz 'unfa' Karoń
+
 rm -rf temp
 
 mkdir temp
