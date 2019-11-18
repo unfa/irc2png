@@ -1,5 +1,9 @@
 # IRC2PNG
 
+## Demo video
+
+https://youtu.be/T-ENFAmNoow
+
 ## What is this for?
 
 Generate a beautiful animated PNG sequence from an IRC log
