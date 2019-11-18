@@ -25,7 +25,7 @@ The IRC parsing is very basic and only works properly with user messages - chann
 
 Just run the script and read the built-in help. 
 
-## Cool features I have to brag about
+## Cool features to brag about
 
 The process is optimized to only render frames that are necessary and will copy over frames to pad the distance in the PNG sequence waiting for a new message to arrive in the IRC log. This made it like 100 times faster than before.
 
