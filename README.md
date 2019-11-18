@@ -12,34 +12,27 @@ This is a bash script that takes an IRC log from a txt file along wiht an SVG te
 
 I've made it, becasue I needed it, but maybe you'll fine it useful.
 
-It's very non-flexible.
-
 The current SVG template has 8 lines of chat, and the script is specifically made to work with that.
-
 It replaces strings in the SVG file and renders it out using ImageMagick to a transparent PNG sequence.
 
-If you then inmport that sequence with FPS value of 1, you'll have an animated IRC chat replay ready to use in a video.
+If you then import that sequence with FPS value of 1 (one frame per second), you'll have an animated IRC chat replay ready to use in a video editor.
 
-You can customize the SVG template to suit your needs, change the fonts, number of lines, layout etc. - though if you change the line amount, you'll need to modify the script too.
+You can customize the SVG template to suit your needs, change the fonts, number of lines, layout etc. - though if you change the line amount, you'll need to modify the script too. At some point this should be automated, but for now - it's rigid.
 
-The IRC parsing is very basic and only works properyl with user messages - channel messages like leave/join will break it, so I just removed them manually in the IRC log.
+The IRC parsing is very basic and only works properly with user messages - channel messages like leave/join will break it, so I just removed them manually in the IRC log. Also: if smeone uses a `\` character - it'll break the script. Just sayin'
 
 ## How to use it?
 
-1. Replace the irc.txt file with your IRC log (just messages copied fram an IRC chat).
+Just run the script and read the built-in help. 
 
-2. Run the `irc2png.sh` script in the same directory.
+## Cool features I have to brag about
 
-3. Wait.
+The process is optimized to only render frames that are necessary and will copy over frames to pad the distance in the PNG sequence waiting for a new message to arrive in the IRC log. This made it like 100 times faster than before.
 
-The script will crete a `temp` folder and use the `chat.svg` template to render a reenactment of the IRC log into an animated PNG sequence.
+It's also using `cp --reflink` to copy the files so if you're on Btrfs or ZFS - it'll be even faster and use much less disk space, as only references to the files will be stored, the actual data blocks being re-used for all duplicates.
 
-Ive attached my original IRC log file that I created this tool for. You can use it to test if it works and to customize your `chat.svg` template.
+This could probably be just as well be replaced with symbolic links to make it work and save space on ext4 also.
 
-**WARNING!**
-
-The script will immediately delete the `temp` folder upon running - if you don't want to loose previously rendered PNG files - copy them somewhere else or change the name of the `temp` directory before running the `irc2png.sh` script again!
-
-## Disclaimer
+## Not so cool un-features I shamefully acknowledge
 
 I know this code is very ugly, but I needed to do one specific thing and I couldn't find a satisfying solution anywhere. Feel free to submit improvements, if you've made any.
