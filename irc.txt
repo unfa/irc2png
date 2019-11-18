@@ -1,0 +1,83 @@
+[15:31:59] <nilshi> Great, welcome louigi
+[15:32:04] <nilshi> 10 minutes delay.
+[15:44:02] <rgareus> stream went down here, does it work for anyone else?
+[15:44:10] <fundamental> rgareus: went down here as well
+[15:44:27] <louigi> no stream
+[15:44:51] <strogon14> nilshi is checking...
+[15:44:52] <nilshi> one moment
+[15:44:54] <louigi> stream is back
+[15:44:59] <louigi> unfa
+[15:45:01] <nilshi> maybe it is just the 2 minutes delay
+[15:45:06] <fundamental> back
+[15:45:22] <rgareus> here, too
+[15:45:38] <strogon14> nilshi: next time we should get an audio cue for the end of the break
+[15:45:54] <nilshi> Ike__: ^
+[15:45:59] <louigi> I have never seen Vital before
+[15:46:08] <nilshi> world premiere, that is the point of the talk
+[15:46:13] <louigi> Noice
+[15:46:26] <louigi> Never used Helm, hehe
+[15:46:35] <louigi> Just saw it at Sonoj from unfa two times
+[15:46:47] <nilshi> Florob: Ike__: unfa ein bischen lauter im raum machen, bitte. just a bit
+[15:50:09] <louigi> smooth and seamless
+[15:50:16] <nilshi> just like linux audio
+[15:50:46] <louigi> LOL
+[15:51:31] <nilshi> quite the attendance in here, nice. Hello all
+[15:51:45] <nilshi> if you have any comments or questions I can read them out aloud
+[15:51:51] <louigi> We should use Slack next time
+[15:51:59] <louigi> Or Discord!
+[15:52:03] <louigi> And do @everyone
+[15:52:41] <louigi> EXCITED
+[15:52:57] <nilshi> Beta Disclaimer is better than NDA
+[15:53:36] <louigi> and the demo crashes
+[15:53:40] <louigi> and we never see anything
+[15:53:42] <louigi> :D
+[15:54:08] <louigi> looks like Helm
+[15:54:25] <louigi> Nice Balmer impersonation right there
+[15:59:04] <strogon14> louigi: nicer color scheme than helm, methinks
+[15:59:54] <strogon14> Does my computer explode if I route filter 1 into filter 2 and filter 2 into filter 1? ;-)
+[16:00:19] <louigi> I am definitely happy that Linux Audio is getting some nice looking GUI
+[16:00:50] <strogon14> nothing really special featurewise so far, except waverables, I wanna hear about them.
+[16:00:54] <fundamental> strogon14: AFAIK it uses a block size of 16 or 32 samples, so you'd just get a tight feedback loop
+[16:01:36] <strogon14> and macro knobs are rare in other OS synths
+[16:02:02] <fundamental> there's going to be some mixing and slew rate constraints with the filters (from what I've heard), so there might need to be more of an effort to get it to explode
+[16:02:12] <rgareus> louigi: Libre-Audio more like. for Linux there are plenty already. u-he for example
+[16:02:52] <strogon14> ok, stereo filters is sth not seen often
+[16:03:12] <rgareus> strogon14: indeed. that's a cool feature
+[16:03:22] <louigi> rgareus: :thumbs-up:
+[16:04:42] <strogon14> is that JUCE? :O
+[16:04:54] <falktx> yes
+[16:05:03] <falktx> helm is made in juce too
+[16:05:44] <nilshi> I have heard Vital has a Shepard tone. That would be nice
+[16:05:50] <nilshi> nice toy.
+[16:06:40] <louigi> I remember trying to make a Shepard tone, but never succeeded
+[16:07:08] <louigi> The instructions seem simple enough, but I tried it a couple of times and there was no effect
+[16:17:03] <strogon14> re-arranging effects order is nice
+[16:17:25] <strogon14> makes me wonder if they are implemented similar to plugins
+[16:17:50] <strogon14> and if they are easy to extract as stand-alone plugins?
+[16:18:38] <strogon14> ok, this looking more an more like the Terratec Komplexer. Anyone remember that?
+[16:21:07] <strogon14> I want image to wavetable as well ;)
+[16:23:16] <AudioFranky> This is f*ckng cool shit now :)
+[16:24:13] <arnaudj_xmpp> Awesome sounds!
+[16:29:39] <louigi> incredible stuff
+[16:29:50] <rgareus> indeed
+[16:30:55] <louigi> "It sounds like it's speaking to us". unfa
+[16:32:29] <strogon14> hmm, I thought "dirty" would be MS-20-like, but it doesn't scream enough, methinks
+[16:34:17] <louigi> Good synthesizer. Solid work.
+[16:34:54] <louigi> And unfa is making a thorough presentation. It's clear he prepared well.
+[16:35:07] <Ike__> Even his tshirt is spot-on
+[16:36:06] <strogon14> Ike__: that's a reference to that he likes to throw distortion plugins (wolf shaper, for example) on everything :)
+[16:37:13] <strogon14> comb filter direct nod to waldorf (Q/microQ/Blofeld) again
+[16:41:38] <AudioFranky> nilshi: Question for unfa: Is Matt Tytel planning to make Vital multi-timbrally playable?
+[16:42:37] <strogon14> I can bring up this question at the question session in the end
+[16:43:32] <AudioFranky> strogon14: Thanks
+[16:43:50] <AudioFranky> strogon14: I guess otherwise you just simply create multiple instances of it in your DAW
+[16:44:15] <strogon14> like unfa is just showing
+[16:45:39] <AudioFranky> *clap* *clap
+[16:45:43] <rgareus> *claps*
+[16:49:12] <strogon14> very probably just monotimbral
+[16:49:14] <AudioFranky> Thanks for asking.
+[16:51:45] <AudioFranky> More cowbell!
+[16:52:13] <strogon14> modulate all the things!
+[16:54:41] <fundamental> really? it looked like there were a lot of context menus which are a challenge for pure touch senarios
+[16:55:55] <strogon14> yeah, dials are a bit small, too
+[16:57:16] <fundamental> after testing zyn on a touch screen you need to make things rather chunky for it to make for a plesant experience
