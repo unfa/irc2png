@@ -1,4 +1,4 @@
-# IRC2PNG
+# irc2png
 
 ## Demo video
 
