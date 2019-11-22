@@ -1,6 +1,9 @@
 # irc2png
 
-## Demo video
+**Generate a beautiful animated PNG sequence from an IRC log.**
+
+
+## Demo videos
 
 Short (prototyping stage)
 https://youtu.be/T-ENFAmNoow
@@ -9,8 +12,6 @@ Long (final result - I've created irc2png specifically for this video)
 https://youtu.be/O5YAEiOt3Ic
 
 ## What is this for?
-
-**Generate a beautiful animated PNG sequence from an IRC log.**
 
 Imagine you have some messages copied from IRC, and you'd liek to present the min video form like they are appearing in real time. With this tool you can do that.
 
