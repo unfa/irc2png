@@ -2,7 +2,11 @@
 
 ## Demo video
 
+Short (prototyping stage)
 https://youtu.be/T-ENFAmNoow
+
+Long (final result - I've created irc2png specifically for this video)
+https://youtu.be/O5YAEiOt3Ic
 
 ## What is this for?
 
